@@ -1,0 +1,5 @@
+from decouple import config
+
+ANTHROPIC_API_KEY = config("RAGEXP_ANTHROPIC_API_KEY")
+COHERE_API_KEY = config("RAGEXP_COHERE_API_KEY")
+VOYAGE_API_KEY = config("RAGEXP_VOYAGE_API_KEY")
